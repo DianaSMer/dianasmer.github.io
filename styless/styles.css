@@ -1,0 +1,134 @@
+
+.header{
+    background:#F4DFC8 ;
+    width: 100%;
+    position: fixed;
+
+}
+
+nav{
+    float: left;
+    margin-left: 10%;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li { 
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+nav ul li a{
+    display: flex;
+    border-radius: var(24px);
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background: #F4BF96;
+    border-radius: 60px;
+}
+h1{
+    color: rgb(226, 104, 43);
+    font-size: 8em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #FAF6F0;
+   
+}
+
+
+
+div {
+    background-color:#F4EAE0 ;
+    padding:40px ;
+    margin: 60px;
+}
+.titulo {
+ 
+    text-align: center;
+}
+a:hover {
+    color:blueviolet ;
+    font-size: 1.6em;
+}
+a:visited {
+color: rgb(137, 94, 41);
+}
+
+.links {
+   color: brown; 
+   text-decoration: none;
+   
+}
+img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+
+
+h3, h2 {
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+.container {
+    display: flexbox;
+    
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+}
+
+form {
+    margin: 10em;
+    box-sizing: border-box;
+    padding: 1em;
+    background: #fff;
+    justify-content: center;
+    color: #d16f25;
+}
+
+
+label {
+    color: #d16f25;
+
+}
+
+input{
+    background-color: #F4EAE0;
+    border-radius: 60px;
+    border: none;
+    size: 1000px;
+}
+
+
+#formulario {
+    justify-content: center;
+    font-family: 'Lucida Sans';
+}
+
+button {
+    padding-left: 20px;
+    padding-right: 20px;
+    border:#F4BF96;
+    background:#F4DFC8;
+    border-radius: 3em;
+}
+
+
+button:hover {
+color: #d16f25;
+}
+
+
+.sobre-mi {
+    font-family: 'Lucida Sans';
+}
